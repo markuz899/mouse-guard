@@ -49,7 +49,14 @@ La soglia di rilevamento evita falsi positivi dovuti a micro-movimenti o roundin
 ## 🚀 Installazione
 
 ```bash
-npm install robotjs
+npm install
+```
+
+⚠️ Su **linux** è necessario lanciare i comandi:
+
+````
+sudo apt-get update
+sudo apt-get install libx11-dev libxtst-dev libpng++-dev
 ```
 
 ⚠️ Su **macOS** è necessario concedere i permessi di **Accessibilità** al terminale (Terminal / iTerm / VS Code).
@@ -65,7 +72,7 @@ Impostazioni di Sistema → Privacy e Sicurezza → Accessibilità
 ## ▶️ Avvio
 
 ```bash
-node mouse-circle.js
+node move.js
 ```
 
 Output atteso:
@@ -127,3 +134,4 @@ MIT
 PR e idee sono benvenuti!
 
 Se questo progetto ti è stato utile, lascia una ⭐️
+````
