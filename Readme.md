@@ -123,6 +123,18 @@ const seconds = 8; // tempo per un giro completo
 
 ---
 
+## 🧩 Crea alias (funziona con qualsiasi finestra del terminale)
+
+- eseguire da terminale 'pwd' (Copia il percorso alla cartella di progetto)
+- "nano ~/.zshrc" oppure "nano ~/.bashrc"
+
+Aggiungere nuova riga alla fine del file con il nuovo alias
+
+- alias move-mouse='node /ABSOLUTE/PATH/DEL/PROGETTO/move.js'
+- eseguire "source ~/.zshrc" o "source ~/.bashrc"
+
+---
+
 ## 📄 Licenza
 
 MIT
