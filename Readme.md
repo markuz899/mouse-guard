@@ -54,7 +54,7 @@ npm install
 
 ⚠️ Su **linux** è necessario lanciare i comandi:
 
-````
+```
 sudo apt-get update
 sudo apt-get install libx11-dev libxtst-dev libpng++-dev
 ```
@@ -134,4 +134,7 @@ MIT
 PR e idee sono benvenuti!
 
 Se questo progetto ti è stato utile, lascia una ⭐️
-````
+
+```
+
+```
